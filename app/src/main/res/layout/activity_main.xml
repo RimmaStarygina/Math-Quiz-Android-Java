@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingHorizontal="10dp"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/operators"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:contentDescription="operators"
+
+            android:src="@drawable/kiss" />
+
+        <android.widget.Button
+            android:id="@+id/play_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/operators"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/buttons"
+            android:padding="20dp"
+            android:text="Play"
+            android:textAllCaps="false"
+            android:textColor="#FBFAFA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/nameRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/play_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hint="Enter your name here:"
+            android:textColor="#032D9C"
+            android:textColorHint="#032D9C"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/nameRequest"
+            android:contentDescription="operators"
+
+            android:padding="5dp"
+            android:src="@drawable/dwarf2" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
