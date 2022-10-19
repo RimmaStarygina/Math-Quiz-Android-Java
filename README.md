@@ -1,5 +1,6 @@
 # Math-Quiz-Android-Java
-Math quiz: enter the answer to mathematical expression within 30 sec. At the end get result. Choose to see : all answers, wrong answers, correct answer and % of correct answers. 
+
+Math quiz: enter the answer to mathematical expression within 30 sec. At the end get result. Choose to see: all answers, wrong answers, correct answer and % of correct answers.
 
 <img width="332" alt="Screen Shot 2022-07-22 at 12 15 53 PM" src="https://user-images.githubusercontent.com/109760727/180481131-7f025ed5-13ba-4c67-b4e3-98f746e49274.png"> <img width="332" alt="Screen Shot 2022-07-22 at 12 14 01 PM" src="https://user-images.githubusercontent.com/109760727/180480964-4188f0d6-feb3-4567-80c0-4cfc41210a30.png">
 <img width="332" alt="Screen Shot 2022-07-22 at 12 14 24 PM" src="https://user-images.githubusercontent.com/109760727/180480975-9a57011e-c72a-4d50-9bcb-d88e48f28182.png">
